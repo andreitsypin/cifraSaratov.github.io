@@ -3,88 +3,118 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Пример Python-кода | Цыпин Андрей</title>
+  <title>Портфолио Цыпин Андрей</title>
   <style>
     body {
+      font-family: sans-serif;
+      background: #f8f8f8;
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: #f0f2f5;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 40px 20px;
+      padding: 0;
     }
 
-    .card {
-      background-color: #fff;
-      border-radius: 16px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-      max-width: 500px;
-      width: 100%;
-      padding: 30px;
+    header {
+      background: #333;
+      color: white;
+      padding: 20px;
       text-align: center;
     }
 
     h1 {
-      margin-bottom: 10px;
-      color: #333;
+      margin: 0;
     }
 
-    p.description {
-      color: #555;
-      font-size: 1rem;
-      margin-bottom: 30px;
+    .section {
+      padding: 30px 20px;
+      max-width: 800px;
+      margin: auto;
     }
 
-    a.button {
-      display: inline-block;
-      background-color: #4caf50;
-      color: white;
-      text-decoration: none;
-      padding: 12px 24px;
+    .section h2 {
+      margin-bottom: 20px;
+      color: #222;
+    }
+
+    .card {
+      background: white;
       border-radius: 8px;
-      font-size: 1rem;
-      font-weight: bold;
-      transition: background-color 0.3s ease;
+      padding: 15px 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
     }
 
-    a.button:hover {
-      background-color: #43a047;
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .button {
+      display: inline-block;
+      background: #4caf50;
+      color: white;
+      padding: 8px 16px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    .button:hover {
+      background: #43a047;
+    }
+
+    .image-preview {
+      max-width: 100%;
+      border-radius: 4px;
+      margin-top: 10px;
     }
 
     footer {
-      margin-top: 40px;
-      color: #888;
+      text-align: center;
+      padding: 20px;
       font-size: 0.9rem;
-    }
-
-    @media (max-width: 600px) {
-      .card {
-        padding: 20px;
-      }
-
-      h1 {
-        font-size: 1.4rem;
-      }
-
-      p.description {
-        font-size: 0.95rem;
-      }
+      color: #777;
     }
   </style>
 </head>
 <body>
 
-  <div class="card">
-    <h1>Пример Python-программы</h1>
-    <p class="description">Простая программа на Python с вводом имени и возраста. Можно запустить и посмотреть, как она работает.</p>
+<header>
+  <h1>Портфолио Цыпин Андрей</h1>
+</header>
 
-    <a class="button" href="https://ishaanbhimwal.github.io/online-python-compiler/?code=%23%20%D0%9F%D1%80%D0%BE%D1%81%D1%82%D0%B0%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%3A%20%D0%B2%D0%B2%D0%BE%D0%B4%20%D0%B8%20%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%0Aname%20%3D%20input(%22%D0%9A%D0%B0%D0%BA%20%D1%82%D0%B5%D0%B1%D1%8F%20%D0%B7%D0%BE%D0%B2%D1%83%D1%82%3F%20%22)%0Aage%20%3D%20input(%22%D0%A1%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE%20%D1%82%D0%B5%D0%B1%D0%B5%20%D0%BB%D0%B5%D1%82%3F%20%22)%0Aprint(f%22%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C%20%7Bname%7D!%20%D0%A2%D0%B5%D0%B1%D0%B5%20%7Bage%7D%20%D0%BB%D0%B5%D1%82.%22)" target="_blank">
-      Запустить в PythonTutor
-    </a>
+<section class="section">
+  <h2>Python-программы</h2>
+
+  <div class="card">
+    <h3>Программа «Приветствие»</h3>
+    <p>Вводит имя и возраст, выводит приветствие.</p>
+    <a class="button" href="https://ishaanbhimwal.github.io/online-python-compiler/?code=%23%20%D0%9F%D1%80%D0%BE%D1%81%D1%82%D0%B0%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%3A%20%D0%B2%D0%B2%D0%BE%D0%B4%20%D0%B8%20%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%0Aname%20%3D%20input(%22%D0%9A%D0%B0%D0%BA%20%D1%82%D0%B5%D0%B1%D1%8F%20%D0%B7%D0%BE%D0%B2%D1%83%D1%82%3F%20%22)%0Aage%20%3D%20input(%22%D0%A1%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE%20%D1%82%D0%B5%D0%B1%D0%B5%20%D0%BB%D0%B5%D1%82%3F%20%22)%0Aprint(f%22%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C%20%7Bname%7D!%20%D0%A2%D0%B5%D0%B1%D0%B5%20%7Bage%7D%20%D0%BB%D0%B5%D1%82.%22)" target="_blank">Запустить</a>
   </div>
 
-  <footer>Автор: Цыпин Андрей, 2025</footer>
+  <div class="card">
+    <h3>Калькулятор</h3>
+    <p>Сложение двух чисел, введённых пользователем.</p>
+    <a class="button" href="https://ishaanbhimwal.github.io/online-python-compiler/?code=a%20%3D%20int(input(%22%D0%92%D0%B2%D0%B5%D0%B4%D0%B8%D1%82%D0%B5%20%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%B5%20%D1%81%D0%BB%D0%B0%D0%B3%D0%B0%D0%B5%D0%BC%D0%BE%D0%B5%3A%20%22))%0Ab%20%3D%20int(input(%22%D0%92%D0%B2%D0%B5%D0%B4%D0%B8%D1%82%D0%B5%20%D0%B2%D1%82%D0%BE%D1%80%D0%BE%D0%B5%20%D1%81%D0%BB%D0%B0%D0%B3%D0%B0%D0%B5%D0%BC%D0%BE%D0%B5%3A%20%22))%0Aprint(a%20%2B%20b)">Протестировать</a>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Проекты в Photoshop</h2>
+
+  <div class="card">
+    <h3>бим бим бам бам</h3>
+    <p>парирури парирам</p>
+    <img src="aboba.jpg" alt="aboba" class="image-preview" />
+  </div>
+
+  <div class="card">
+    <h3>бим бим бам бам</h3>
+    <p>парирури парирам</p>
+    <img src="aboba.jpg" alt="aboba" class="image-preview" />
+  </div>
+</section>
+
+<footer>
+  &copy; Цыпин Андрей, 2025
+</footer>
 
 </body>
 </html>
