@@ -1,16 +1,90 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Пример Python-кода</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Пример Python-кода | Цыпин Андрей</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f2f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      width: 100%;
+      padding: 30px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    p.description {
+      color: #555;
+      font-size: 1rem;
+      margin-bottom: 30px;
+    }
+
+    a.button {
+      display: inline-block;
+      background-color: #4caf50;
+      color: white;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    a.button:hover {
+      background-color: #43a047;
+    }
+
+    footer {
+      margin-top: 40px;
+      color: #888;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 1.4rem;
+      }
+
+      p.description {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>Пример программы на Python</h1>
-    <p>
-        Нажми на ссылку ниже, чтобы открыть визуализацию работы кода:
-    </p>
-    <a href="https://pythontutor.com/visualize.html#code=%23%20Простая%20программа%3A%20ввод%20и%20вывод%0Aname%20%3D%20input%28%22%D0%9A%D0%B0%D0%BA%20%D1%82%D0%B5%D0%B1%D1%8F%20%D0%B7%D0%BE%D0%B2%D1%83%D1%82%3F%20%22%29%0Aage%20%3D%20input%28%22%D0%A1%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE%20%D1%82%D0%B5%D0%B1%D0%B5%20%D0%BB%D0%B5%D1%82%3F%20%22%29%0Aprint%28f%22%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C%20%7Bname%7D%21%20%D0%A2%D0%B5%D0%B1%D0%B5%20%7Bage%7D%20%D0%BB%D0%B5%D1%82.%22%29&mode=edit" target="_blank">
-        Открыть код в PythonTutor
+
+  <div class="card">
+    <h1>Пример Python-программы</h1>
+    <p class="description">Простая программа на Python с вводом имени и возраста. Можно запустить и посмотреть, как она работает.</p>
+
+    <a class="button" href="https://pythontutor.com/visualize.html#code=name%20%3D%20input%28%22%D0%9A%D0%B0%D0%BA%20%D1%82%D0%B5%D0%B1%D1%8F%20%D0%B7%D0%BE%D0%B2%D1%83%D1%82%3F%20%22%29%0Aage%20%3D%20input%28%22%D0%A1%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE%20%D1%82%D0%B5%D0%B1%D0%B5%20%D0%BB%D0%B5%D1%82%3F%20%22%29%0Aprint%28f%22%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C%20%7Bname%7D%21%20%D0%A2%D0%B5%D0%B1%D0%B5%20%7Bage%7D%20%D0%BB%D0%B5%D1%82.%22%29&mode=edit" target="_blank">
+      Запустить в PythonTutor
     </a>
+  </div>
+
+  <footer>Автор: Цыпин Андрей, 2025</footer>
+
 </body>
 </html>
